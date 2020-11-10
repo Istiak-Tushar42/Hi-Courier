@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="ltr">
+
+<!-- BEGIN: HEAD PART -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description" content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords" content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="PIXINVENT">
+    <title>Li Courier | Profile</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
+
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/css/vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendors/css/tables/datatable/datatables.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendors/css/file-uploaders/dropzone.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendors/css/tables/datatable/extensions/dataTables.checkboxes.css">
+    <!-- END: Vendor CSS-->
+
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/components.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/themes/dark-layout.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/themes/semi-dark-layout.css">
+
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/core/menu/menu-types/horizontal-menu.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/core/colors/palette-gradient.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/plugins/file-uploaders/dropzone.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/pages/data-list-view.css">
+
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- END: Custom CSS-->
+
+</head>
+<!-- END: HEAD PART -->
+
+<!-- BEGIN: BODY PART -->
+<body class="horizontal-layout horizontal-menu 2-columns  navbar-floating footer-static" data-open="hover" data-menu="horizontal-menu" data-col="2-columns">
+
+    <!-- DESKTOP MENU START -->
+    <nav class="header-navbar navbar-expand-lg navbar navbar-with-menu navbar-fixed navbar-shadow navbar-brand-center">
+        <div class="navbar-wrapper">
+            <div class="navbar-container content">
+                <div class="navbar-collapse" id="navbar-mobile">
+                    <div class="mr-auto float-left bookmark-wrapper d-flex align-items-center">
+                        <ul class="nav navbar-nav d-lg-none">
+                            <li class="nav-item mobile-menu d-xl-none mr-auto"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="dashboard.html"><i class="ficon feather icon-menu"></i></a></li>
+                        </ul>
+
+                        <a class="navbar-brand" href="javascript:void(0)">
+                            <img src="assets/images/logo.png" class="img-fluid d-none d-lg-block" width="120" alt="">
+                        </a>
+
+                        <ul class="nav navbar-nav bookmark-icons d-flex align-items-center">
+                            <li class="nav-item d-none d-lg-block">
+                                <a class="nav-link" href="dashboard.html">
+                                    <i class="ficon feather icon-home"></i> Home
+                                </a>
+                            </li>
+                            <li class="nav-item d-none d-lg-block">
+                                <a class="nav-link" href="package.html">
+                                    <i class="ficon feather icon-package"></i> Package
+                                </a>
+                            </li>
+                            <li class="nav-item d-none d-lg-block">
+                                <a class="nav-link" href="billing.html">
+                                    <i class="ficon feather icon-dollar-sign"></i> Billing
+                                </a>
+                            </li>
+                            <li class="nav-item d-none d-lg-block">
+                                <a class="nav-link" href="print.html">
+                                    <i class="ficon feather icon-printer"></i> Print
+                                </a>
+                            </li>
+                            <li class="nav-item d-none d-lg-block">
+                                <a class="nav-link" href="product.html">
+                                    <i class="ficon feather icon-box"></i> Inventory
+                                </a>
+                            </li>
+                            <li class="dropdown nav-item d-none d-lg-block" data-menu="dropdown">
+                                <a class="dropdown-toggle nav-link" href="javascript:void(0)" data-toggle="dropdown">
+                                    <i class="feather icon-more-horizontal"></i><span data-i18n="More">More</span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li data-menu="">
+                                        <a class="dropdown-item" href="ticket.html" data-toggle="dropdown" data-i18n="Open New Case">
+                                            <i class="feather icon-shopping-bag"></i>Open New Case
+                                        </a>
+                                    </li>
+                                    <li data-menu="">
+                                        <a class="dropdown-item" href="service.html" data-toggle="dropdown" data-i18n="Sercice Price">
+                                            <i class="feather icon-settings"></i>Service Price
+                                        </a>
+                                    </li>
+                                    <li data-menu="">
+                                        <a class="dropdown-item" href="training.html" data-toggle="dropdown" data-i18n="Training">
+                                            <i class="feather icon-sun"></i>Training
+                                        </a>
+                                    </li>
+                                    <li data-menu="">
+                                        <a class="dropdown-item" href="planning.html" data-toggle="dropdown" data-i18n="Planning">
+                                            <i class="feather icon-grid"></i>Planning
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul class="nav navbar-nav float-right">
+                        <li class="dropdown dropdown-notification nav-item"><a class="nav-link nav-link-label" href="#" data-toggle="dropdown"><i class="ficon feather icon-bell"></i><span class="badge badge-pill badge-primary badge-up">5</span></a>
+                            <ul class="dropdown-menu dropdown-menu-media dropdown-menu-right">
+                                <li class="dropdown-menu-header">
+                                    <div class="dropdown-header m-0 p-2">
+                                        <h3 class="white">5 New</h3><span class="notification-title">App Notifications</span>
+                                    </div>
+                                </li>
+                                <li class="scrollable-container media-list"><a class="d-flex justify-content-between" href="javascript:void(0)">
+                                        <div class="media d-flex align-items-start">
+                                            <div class="media-left"><i class="feather icon-plus-square font-medium-5 primary"></i></div>
+                                            <div class="media-body">
+                                                <h6 class="primary media-heading">You have new order!</h6><small class="notification-text"> Are your going to meet me tonight?</small>
+                                            </div><small>
+                                                <time class="media-meta" datetime="2015-06-11T18:29:20+08:00">9 hours ago</time></small>
+                                        </div>
+                                    </a><a class="d-flex justify-content-between" href="javascript:void(0)">
+                                        <div class="media d-flex align-items-start">
+                                            <div class="media-left"><i class="feather icon-download-cloud font-medium-5 success"></i></div>
+                                            <div class="media-body">
+                                                <h6 class="success media-heading red darken-1">99% Server load</h6><small class="notification-text">You got new order of goods.</small>
+                                            </div><small>
+                                                <time class="media-meta" datetime="2015-06-11T18:29:20+08:00">5 hour ago</time></small>
+                                        </div>
+                                    </a><a class="d-flex justify-content-between" href="javascript:void(0)">
+                                        <div class="media d-flex align-items-start">
+                                            <div class="media-left"><i class="feather icon-alert-triangle font-medium-5 danger"></i></div>
+                                            <div class="media-body">
+                                                <h6 class="danger media-heading yellow darken-3">Warning notifixation</h6><small class="notification-text">Server have 99% CPU usage.</small>
+                                            </div><small>
+                                                <time class="media-meta" datetime="2015-06-11T18:29:20+08:00">Today</time></small>
+                                        </div>
+                                    </a><a class="d-flex justify-content-between" href="javascript:void(0)">
+                                        <div class="media d-flex align-items-start">
+                                            <div class="media-left"><i class="feather icon-check-circle font-medium-5 info"></i></div>
+                                            <div class="media-body">
+                                                <h6 class="info media-heading">Complete the task</h6><small class="notification-text">Cake sesame snaps cupcake</small>
+                                            </div><small>
+                                                <time class="media-meta" datetime="2015-06-11T18:29:20+08:00">Last week</time></small>
+                                        </div>
+                                    </a><a class="d-flex justify-content-between" href="javascript:void(0)">
+                                        <div class="media d-flex align-items-start">
+                                            <div class="media-left"><i class="feather icon-file font-medium-5 warning"></i></div>
+                                            <div class="media-body">
+                                                <h6 class="warning media-heading">Generate monthly report</h6><small class="notification-text">Chocolate cake oat cake tiramisu marzipan</small>
+                                            </div><small>
+                                                <time class="media-meta" datetime="2015-06-11T18:29:20+08:00">Last month</time></small>
+                                        </div>
+                                    </a></li>
+                                <li class="dropdown-menu-footer"><a class="dropdown-item p-1 text-center" href="javascript:void(0)">Read all notifications</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown dropdown-user nav-item"><a class="dropdown-toggle nav-link dropdown-user-link" href="#" data-toggle="dropdown">
+                                <div class="user-nav d-sm-flex d-none"><span class="user-name text-bold-600">John Doe</span><span class="user-status">Available</span></div><span><img class="round" src="assets/images/portrait/small/avatar-s-11.jpg" alt="avatar" height="40" width="40"></span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="profile.html">
+                                    <i class="feather icon-user"></i> Profile
+                                </a>
+                                <a class="dropdown-item" href="login.html">
+                                    <i class="feather icon-power"></i> Logout
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- DESKTOP MENU END -->
+
+    <!-- MOBILE MENU START -->
+    <div class="horizontal-menu-wrapper d-lg-none d-block">
+        <div class="header-navbar navbar-expand-sm navbar navbar-horizontal floating-nav navbar-without-dd-arrow navbar-shadow menu-border" role="navigation" data-menu="menu-wrapper">
+            <div class="navbar-header">
+                <ul class="nav navbar-nav flex-row">
+                    <li class="nav-item mr-auto">
+                        <a class="navbar-brand" href="javascript:void(0)">
+                            <img src="assets/images/logo.png" class="img-fluid" alt="">
+                        </a>
+                    </li>
+
+                    <li class="nav-item nav-toggle">
+                        <a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse">
+                            <i class="feather icon-x d-block d-xl-none font-medium-4 primary toggle-icon"></i>
+                            <i class="toggle-icon feather icon-disc font-medium-4 d-none d-xl-block collapse-toggle-icon primary" data-ticon="icon-disc"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Horizontal menu content-->
+            <div class="navbar-container main-menu-content" data-menu="menu-container">
+                <!-- include ../../../includes/mixins-->
+                <ul class="nav navbar-nav" id="main-menu-navigation" data-menu="menu-navigation">
+                    <li class="nav-item">
+                        <a class="nav-link" href="dashboard.html">
+                            <i class="feather icon-home"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="package.html">
+                            <i class="feather icon-package"></i>
+                            <span>Package</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="billing.html">
+                            <i class="feather icon-dollar-sign"></i>
+                            <span>Billing</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="print.html">
+                            <i class="feather icon-printer"></i>
+                            <span>Print</span>
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">
+                            <i class="feather icon-box"></i>
+                            <span>Inventory</span>
+                        </a>
+                    </li>
+
+                    <li class="dropdown nav-item" data-menu="dropdown">
+                        <a class="dropdown-toggle nav-link" href="javascript:void(0)" data-toggle="dropdown">
+                            <i class="feather icon-more-horizontal"></i><span data-i18n="More">More</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li data-menu="">
+                                <a class="dropdown-item" href="ticket.html" data-toggle="dropdown" data-i18n="Open New Case">
+                                    <i class="feather icon-shopping-bag"></i>Open New Case
+                                </a>
+                            </li>
+                            <li data-menu="">
+                                <a class="dropdown-item" href="service.html" data-toggle="dropdown" data-i18n="Sercice Price">
+                                    <i class="feather icon-settings"></i>Service Price
+                                </a>
+                            </li>
+                            <li data-menu="">
+                                <a class="dropdown-item" href="training.html" data-toggle="dropdown" data-i18n="Training">
+                                    <i class="feather icon-sun"></i>Training
+                                </a>
+                            </li>
+                            <li data-menu="">
+                                <a class="dropdown-item" href="planning.html" data-toggle="dropdown" data-i18n="Planning">
+                                    <i class="feather icon-grid"></i>Planning
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- MOBILE MENU END -->
+
+    <!-- CUSTOMER SERVICE SECTION START -->
+    <section class="customer-service">
+        <div class="container-fluid">
+            <div class="row hero no-gutters">
+                <div class="banner col-md-4">
+                    <h3 class="banner-title"> Contact Customer Service </h3>
+                    <p class="banner-text">
+                        Monday to Friday, 9am to 5:00pm (GMT+1).
+                        <br>
+                        Saturday 9:00am to 1:00pm (GMT+1).
+                    </p>
+                </div>
+
+                <div class="banner-content col-md-4">
+                    <div class="row no-gutters align-items-center justify-content-between">
+                        <p class="name">Nassima</p>
+                        <p class="phone">0690056602</p>
+                        <p class="post">Réclamation</p>
+                    </div>
+
+                    <div class="row no-gutters align-items-center justify-content-between">
+                        <p class="name">Khalid</p>
+                        <p class="phone">0672181950</p>
+                        <p class="post">Commercial</p>
+                    </div>
+                </div>
+
+                <div class="banner-box col-md-4">
+                    <div class="row no-gutters">
+                        <h4 class="name">Fix</h4>
+                        <p class="phone">0520015583</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CUSTOMER SERVICE SECTION END -->
+
+    <!-- MAIN SECTION START -->
+    <div class="app-content content">
+        <div class="content-overlay"></div>
+        <div class="header-navbar-shadow"></div>
+
+        <div class="content-wrapper">
+            <div class="content-header row">
+                <div class="content-header-left col-md-9 col-12 mb-2">
+                    <div class="row breadcrumbs-top">
+                        <div class="col-12">
+                            <h2 class="content-header-title float-left mb-0">Profile</h2>
+                            <div class="breadcrumb-wrapper col-12">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item">
+                                        <a href="dashboard.html">
+                                            <i class="feather icon-home"></i>
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="breadcrumb-item">
+                                        <a href="javascript:void(0)">Profile</a>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-header-right text-md-right col-md-3 col-12 d-md-block d-none">
+                    <div class="form-group breadcrum-right">
+                        <div class="dropdown">
+                            <button class="btn-icon btn btn-primary btn-round btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="feather icon-settings"></i></button>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="profile.html">
+                                    <i class="feather icon-user"></i> Profile
+                                </a>
+                                <a class="dropdown-item" href="billing.html">
+                                    <i class="feather icon-dollar-sign"></i> Billing
+                                </a>
+                                <a class="dropdown-item" href="print.html">
+                                    <i class="feather icon-printer"></i> Print
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-body">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="card p-1">
+                            <h6 class="card-title text-dark m-0">Personal Information</h6>
+                            <hr>
+
+                            <div class="card-body p-0">
+                                <form class="form-horizontal" novalidate="">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <div class="controls">
+                                                    <label for="name" style="font-size: .8rem;" class="text-muted">Username</label>
+                                                    <input type="text" name="text" class="form-control" required="" data-validation-required-message="Username is required" aria-invalid="false" disabled>
+                                                    <div class="help-block"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <div class="controls">
+                                                    <label for="email" style="font-size: .8rem;" class="text-muted">Email</label>
+                                                    <input type="email" name="email" class="form-control" required="" data-validation-required-message="Email is required" aria-invalid="false" disabled>
+                                                    <div class="help-block"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <div class="controls">
+                                                    <label for="fname" style="font-size: .8rem;">Full name</label>
+                                                    <input type="text" class="form-control" required="" data-validation-required-message="This field is required" aria-invalid="false">
+                                                    <div class="help-block"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    
+                                    <button class="btn btn-info">Save</button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="card p-1">
+                            <div class="d-flex justify-content-between">
+                                <h6 class="card-title text-dark m-0">Bank <span class="title-icon"><i class="feather icon-check-circle"></i></span></h6>
+                                <a href="#">
+                                    Edit <i class="feather icon-edit"></i>
+                                </a>
+                            </div>
+
+                            <hr>
+
+                            <div class="card-body p-0">
+                                <form class="form-horizontal" novalidate="">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <div class="controls">
+                                                    <label for="name" style="font-size: .8rem;">RIB  <span class="text-danger">*</span></label>
+                                                    <input type="text" class="form-control" required="" data-validation-required-message="This field is required" aria-invalid="false">
+                                                    <div class="help-block"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <div class="controls">
+                                                    <label for="email" style="font-size: .8rem;">Email</label>
+                                                    <input type="email" class="form-control" required="" data-validation-required-message="Email is required" aria-invalid="false">
+                                                    <div class="help-block"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <div class="controls">
+                                                    <label for="fname" style="font-size: .8rem;">Bank Name <span class="text-danger">*</span></label>
+                                                    <input type="text" name="fname" class="form-control" required="" data-validation-required-message="Bank name is required" aria-invalid="false">
+                                                    <div class="help-block"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <button type="submit" class="btn btn-info">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="card p-1">
+                            <div class="d-flex justify-content-between">
+                                <h6 class="card-title text-dark m-0">Address <span class="title-icon"><i class="feather icon-check-circle"></i></span></h6>
+                                <a href="#">
+                                    Edit <i class="feather icon-edit"></i>
+                                </a>
+                            </div>
+
+                            <hr>
+
+                            <div class="card-body p-0">
+                                <form class="form-horizontal" novalidate="">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <div class="controls">
+                                                    <label for="phone" style="font-size: .8rem;">Phone</label>
+                                                    <input type="tel" name="text" class="form-control" required="" data-validation-required-message="Phone number is required" aria-invalid="false">
+                                                    <div class="help-block"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <div class="controls">
+                                                    <label for="city" style="font-size: .8rem;">City</label>
+                                                    <input type="text" name="city" class="form-control" required="" data-validation-required-message="Email is required" aria-invalid="false">
+                                                    <div class="help-block"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <div class="controls">
+                                                    <label for="address" style="font-size: .8rem;">Address</label>
+                                                    <input type="text" name="address" class="form-control" required="" data-validation-required-message="Address is required" aria-invalid="false">
+                                                    <div class="help-block"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    
+                                    <button type="submit" class="btn btn-info">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="card p-1">
+                            <div class="d-flex justify-content-between">
+                                <h6 class="card-title text-dark m-0">Store Informations <span class="title-icon"><i class="feather icon-check-circle"></i></span></h6>
+                                <a href="#">
+                                    Edit <i class="feather icon-edit"></i>
+                                </a>
+                            </div>
+
+                            <hr>
+
+                            <div class="card-body p-0">
+                                <form class="form-horizontal" novalidate="">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <div class="controls">
+                                                    <label for="company" style="font-size: .8rem;">Store Name</label>
+                                                    <input type="text" name="company" class="form-control" required="" data-validation-required-message="This field is required" aria-invalid="false">
+                                                    <div class="help-block"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <div class="controls">
+                                                    <label for="website" style="font-size: .8rem;">Website</label>
+                                                    <input type="text" name="website" class="form-control" required="" data-validation-required-message="Website is required" aria-invalid="false">
+                                                    <div class="help-block"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <button type="submit" class="btn btn-info">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card p-1">
+                            <h6 class="card-title text-dark m-0">Balance</h6>
+                            <hr>
+
+                            <div class="card-body p-0 d-flex justify-content-between" style="font-size: .8rem;">
+                                <div>
+                                    <p class="text-muted">Total COD</p>
+                                    <p class="text-muted">Delivery Charges</p>
+                                    <p class="text-muted">Estimated Tax</p>
+                                </div>
+
+                                <div class="text-right">
+                                    <p>Dhs <span>8500</span></p>
+                                    <p class="text-success font-weight-bold">Dhs -<span>1321</span> </p>
+                                    <p>Dhs <span>0</span></p>
+                                </div>
+                            </div>
+
+                            <hr>
+                            
+                            <div class="d-flex justify-content-between">
+                                <span class="font-weight-bold" style="font-size: .8rem;">Total</span>
+                                <p class="font-weight-bold" style="font-size: .8rem;">1197</span></p>
+                            </div>
+                            <a href="billing.html" class="btn btn-info btn-block">Go to Billing</a>
+                        </div>
+
+                        <div class="card p-1">
+                            <h6 class="card-title text-dark m-0">Link your Account</h6>
+                            <hr>
+
+                            <div class="card-body p-0 d-flex align-items-center justify-content-between" style="font-size: .8rem;">
+                                <p class="mt-2">
+                                    You use your Google Account to sign in to olivraison
+                                </p>
+                                <img src="assets/images/google-search-icon.png" width="90" alt="">
+                            </div>
+
+                            <hr>
+                            
+                            <div class="d-flex justify-content-between">
+                                <a href="" class="d-flex align-items-center">
+                                    <img src="assets/images/google.png" width="25" alt="">
+                                    <span class="ml-1 font-weight-bold text-info">Signing in with google</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title mb-2">Contact Us</h4>
+                                <p>
+                                    Monday to Friday, 9am to 5:30pm (GMT+1). <br>
+                                    Saturday 9:00am to 1:00pm (GMT+1).
+                                </p>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <span>Nassima</span>
+                                    <span>0690056602</span>
+                                    <span>Réclamation</span>
+                                </div>
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                    <span>Hanane</span>
+                                    <span>0690056602</span>
+                                    <span>Réclamation</span>
+                                </div>
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                    <span>Khalid</span>
+                                    <span>0690056602</span>
+                                    <span>Commercial</span>
+                                </div>
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                    <span>Fix</span>
+                                    <span>0690056602</span>
+                                    <span>Réclamation</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MAIN SECTION END -->
+
+    <!-- FOOTER SECTION START -->
+    <footer class="footer footer-static footer-light navbar-shadow">
+        <p class="clearfix blue-grey lighten-2 mb-0"><span class="float-md-left d-block d-md-inline-block mt-25">COPYRIGHT &copy; 2020<a class="text-bold-800 grey darken-2" href="dashboard.html">Hi Courier,</a>All rights Reserved</span>
+            <button class="btn btn-primary btn-icon scroll-top" type="button"><i class="feather icon-arrow-up"></i></button>
+        </p>
+    </footer>
+    <!-- FOOTER SECTION END -->
+
+    <!-- BEGIN: Vendor JS-->
+    <script src="assets/vendors/js/vendors.min.js"></script>
+    <!-- BEGIN Vendor JS-->
+
+    <!-- BEGIN: Page Vendor JS-->
+    <script src="assets/vendors/js/ui/jquery.sticky.js"></script>
+    <script src="assets/vendors/js/extensions/dropzone.min.js"></script>
+    <script src="assets/vendors/js/tables/datatable/datatables.min.js"></script>
+    <script src="assets/vendors/js/tables/datatable/datatables.buttons.min.js"></script>
+    <script src="assets/vendors/js/tables/datatable/datatables.bootstrap4.min.js"></script>
+    <script src="assets/vendors/js/tables/datatable/buttons.bootstrap.min.js"></script>
+    <script src="assets/vendors/js/tables/datatable/dataTables.select.min.js"></script>
+    <script src="assets/vendors/js/tables/datatable/datatables.checkboxes.min.js"></script>
+    <!-- END: Page Vendor JS-->
+
+    <!-- BEGIN: Theme JS-->
+    <script src="assets/js/core/app-menu.js"></script>
+    <script src="assets/js/core/app.js"></script>
+    <script src="assets/js/scripts/components.js"></script>
+    <!-- END: Theme JS-->
+
+    <!-- BEGIN: Page JS-->
+    <script src="assets/js/scripts/ui/data-list-view.js"></script>
+    <!-- END: Page JS-->
+
+    <!-- CUSTOM SCRIPT -->
+    <script src="assets/js/dashboard.js"></script>
+</body>
+<!-- END: BODY PART -->
+
+</html>
