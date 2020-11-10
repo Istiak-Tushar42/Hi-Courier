@@ -571,6 +571,13 @@
           event.preventDefault();
           event.stopPropagation();
         });
+
+        // If Dropdown Menu
+        // dropdownMenu.addClass('dropdown').removeClass('has-sub');
+        // dropdownMenu.child('a').addClass('dropdown-toggle nav-link');
+        // dropdownMenu.children('ul').find('a').addClass('dropdown-item');
+        dropdownMenu.find('ul').addClass('dropdown-menu');
+        // dropdownSubMenu.addClass().removeClass('has-sub');
       } else {
         // Change body classes
         $body.removeClass($body.data('menu')).addClass('vertical-layout vertical-overlay-menu fixed-navbar');
