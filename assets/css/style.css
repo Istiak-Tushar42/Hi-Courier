@@ -780,7 +780,25 @@ a {
 
 .video-section {
   padding: 2rem 0;
-  background: #f3f6f7;
+  background: white;
+}
+
+.video-section .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.video-section .title .video-title {
+  border-bottom: solid .2rem #00AFEF;
+  display: inline-block;
+  text-align: center;
 }
 
 .video-section video:focus {
@@ -852,6 +870,20 @@ a {
   .designation .title .line {
     width: 100px;
   }
+  .customer-service .banner .banner-title {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  .customer-service .banner .banner-text {
+    font-size: .9rem;
+  }
+  .customer-service .banner-content .row {
+    margin-bottom: 1.5rem;
+    font-size: .9rem;
+  }
+  .customer-service .banner-content .row:last-child {
+    margin-bottom: 0;
+  }
   .order-ticket {
     padding: 1.5rem 0 0;
   }
@@ -863,8 +895,10 @@ a {
     margin-bottom: 2rem;
     font-size: .9rem;
   }
-  .video-section h1,
+  .video-section {
+    margin-top: 1.5rem;
+  }
   .video-section video {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
   }
 }
