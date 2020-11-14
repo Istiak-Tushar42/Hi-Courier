@@ -6,6 +6,7 @@ p {
     margin: 0;
 }
 
+
 .header-navbar, .main-menu {
     background: #1b2c40 !important;
 
@@ -652,7 +653,6 @@ a {
 }
 
 .login {
-    background: red;
     width: 600px;
 }
 
@@ -689,15 +689,15 @@ a {
     }
 }
 
-.btn-outline-info:hover {
-    background: #00CFE8;
-    color: white;
-}
+// .btn-outline-info:hover {
+//     background: #00CFE8;
+//     color: white;
+// }
 
-.pagination .page-item.active .page-link {
-    background-color: #00AFEF !important;
-    color: white !important;
-}
+// .pagination .page-item.active .page-link {
+//     background-color: #00AFEF !important;
+//     color: white !important;
+// }
 
 .btn-cancel {
     border: solid 1px #EA5455 !important;
