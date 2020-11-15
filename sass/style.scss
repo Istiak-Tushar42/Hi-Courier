@@ -127,6 +127,23 @@ p {
     border-bottom: 0 !important;
 }
 
+.dropdown-notification .dropdown-menu-header {
+    background: #00CFE8;
+}
+
+.badge.badge-primary {
+    background: #00CFE8;
+}
+
+.dropdown-notification .dropdown-menu.dropdown-menu-right::before {
+    background: #00CFE8;
+    border-color: #00CFE8;
+}
+
+.navbar-brand:hover {
+    cursor: default;
+}
+
 .customer-service {
     padding-top: 100px;
 
@@ -847,6 +864,12 @@ a {
 
 .main-menu.menu-light .navigation > li.open > a, .main-menu.menu-light .navigation > li.sidebar-group-active > a {
     background: transparent;
+}
+
+.vertical-overlay-menu .main-menu .navigation li.open > a:not(.mm-next):after {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 
 .dropdown-menu {
