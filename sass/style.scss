@@ -228,38 +228,22 @@ p {
 .order-ticket {
     padding: 2rem;
 
-    .ticket-menu {
+    .ticket-form {
         padding-left: 1rem;
         margin-bottom: 2.25rem;
 
-        .ticket-item {
-            margin-bottom: 1rem;
+        .form-check {
             background: #00CFE8;
+            margin-bottom: 1rem;
             color: white;
-            width: 100%;
             padding: 1rem;
-            list-style: none;
-            position: relative;
-            border-radius: .2rem;
-    
-            p {
-                margin-left: 1.25rem;
-    
-                &:first-child {
-                    margin-bottom: .5rem;
-                }
+
+            .form-check-input {
+                margin-left: .25rem;
             }
-    
-            &::before {
-                position: absolute;
-                content: '';
-                background: white;
-                width: 8px;
-                height: 8px;
-                left: 10px;
-                top: 50%;
-                border-radius: 50%;
-                transform: translateY(-50%);
+            label {
+                margin-left: 1.5rem;
+                color: white;
             }
         }
     }
@@ -704,6 +688,15 @@ a {
             position: static;
         }
     }
+}
+
+.form-control:focus, .custom-file-input:focus {
+    border-color: #00CFE8;
+}
+
+.pagination .page-item.active .page-link {
+    background: #00CFE8;
+    color: white;
 }
 
 // .btn-outline-info:hover {
